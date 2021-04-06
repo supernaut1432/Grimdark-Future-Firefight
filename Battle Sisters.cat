@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1cdf-4a62-90c7-58e9" name="Battle Sisters" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1cdf-4a62-90c7-58e9" name="Battle Sisters" revision="2" battleScribeVersion="2.03" authorName="Supernaut" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6298-159c-a477-185d" name="GFF - Battle Sisters v2.10" shortName="Battle Sisters"/>
   </publications>
@@ -295,6 +295,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="15da-1038-bd5b-e80e" name="Plasma Pistol" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -307,6 +310,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a498-72e9-481f-8ab1" name="Fusion Pistol" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -319,6 +325,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d2eb-5da3-b474-8726" name="CCW" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -338,6 +347,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8bdb-a1e3-6bfc-3705" name="Energy Sword" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -350,6 +362,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa67-ca05-b3ba-e544" name="Energy Fist" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -362,6 +377,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
