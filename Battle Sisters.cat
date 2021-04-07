@@ -63,13 +63,32 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3bd8-ac27-d45c-a1fa" name="Replace CCW:" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" defaultSelectionEntryId="2488-632f-570d-ad82">
+        <selectionEntryGroup id="3bd8-ac27-d45c-a1fa" name="Replace CCW:" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" defaultSelectionEntryId="eaea-5061-8928-2242">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e33-502a-6581-81c3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f8-cde7-a273-00a7" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="eaea-5061-8928-2242" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8e7b-4ab6-1de6-b361" name="CCW" hidden="false" targetId="4548-3a74-eeab-b9e1" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ce99-74fb-fca1-48df" value="A2">
+                      <conditions>
+                        <condition field="selections" scope="a385-858f-5758-0d07" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfe5-cd7d-bec7-8d61" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ce99-74fb-fca1-48df" value="A1">
+                      <conditions>
+                        <condition field="selections" scope="a385-858f-5758-0d07" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e24-a7b5-6ca4-2e62" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
-            <entryLink id="2488-632f-570d-ad82" name="CCW" hidden="false" collective="false" import="true" targetId="d2eb-5da3-b474-8726" type="selectionEntry"/>
             <entryLink id="9030-0db9-fbc3-1966" name="Energy Sword" hidden="false" collective="false" import="true" targetId="8bdb-a1e3-6bfc-3705" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
@@ -517,6 +536,14 @@
     <profile id="18ed-99ea-73d5-69e2" name="War Hymns" publicationId="6298-159c-a477-185d" page="2" hidden="false" typeId="05b2-52f7-7285-c005" typeName="Special Rules">
       <characteristics>
         <characteristic name="Description" typeId="44d3-9a99-f749-fd99">The hero and all friendly units within 12&quot; get AP(+1) and +1 attack in melee.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4548-3a74-eeab-b9e1" name="CCW" publicationId="6298-159c-a477-185d" page="2" hidden="false" typeId="2c92-291a-eece-3203" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">Melee</characteristic>
+        <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df"/>
+        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+        <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
