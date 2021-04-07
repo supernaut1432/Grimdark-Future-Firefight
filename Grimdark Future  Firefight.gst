@@ -39,8 +39,17 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="8031-c4ab-5801-cecf" name="Battle Sisters" hidden="false"/>
+    <categoryEntry id="731f-ae78-a24f-043d" name="Hero" hidden="false"/>
+    <categoryEntry id="e108-7f03-5301-c340" name="Infantry" hidden="false"/>
+    <categoryEntry id="a5c7-9b2a-5f7a-864f" name="Vehicles" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="aba4-26bd-ba08-63c7" name="Force" hidden="false"/>
+    <forceEntry id="aba4-26bd-ba08-63c7" name="Team" hidden="false">
+      <categoryLinks>
+        <categoryLink id="d749-ded7-6187-39b6" name="Hero" hidden="false" targetId="731f-ae78-a24f-043d" primary="false"/>
+        <categoryLink id="4331-db1b-506b-db1b" name="Infantry" hidden="false" targetId="e108-7f03-5301-c340" primary="false"/>
+        <categoryLink id="8cfa-a589-4ffc-a2f5" name="Vehicles" hidden="false" targetId="a5c7-9b2a-5f7a-864f" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
 </gameSystem>

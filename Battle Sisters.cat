@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1cdf-4a62-90c7-58e9" name="Battle Sisters" revision="2" battleScribeVersion="2.03" authorName="Supernaut" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1cdf-4a62-90c7-58e9" name="Battle Sisters" revision="3" battleScribeVersion="2.03" authorName="Supernaut" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6298-159c-a477-185d" name="GFF - Battle Sisters v2.10" shortName="Battle Sisters"/>
   </publications>
   <entryLinks>
     <entryLink id="b2af-7697-4f13-fbf1" name="Battle Sister" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" targetId="a385-858f-5758-0d07" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ea85-045c-9143-8c71" name="Battle Sisters" hidden="false" targetId="8031-c4ab-5801-cecf" primary="false"/>
+        <categoryLink id="9320-f994-3c30-20d9" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -86,6 +86,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
