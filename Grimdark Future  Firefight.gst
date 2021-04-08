@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4503-fc13-8f5b-fe41" name="Grimdark Future:  Firefight" revision="2" battleScribeVersion="2.03" authorName="Supernaut" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4503-fc13-8f5b-fe41" name="Grimdark Future:  Firefight" revision="3" battleScribeVersion="2.03" authorName="Supernaut" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a38b-c469-6ce5-b387" name="Grimdark Future: Firefight v2.12" shortName="GFF Core" publisher="Grimdark Future: Firefight Basic Rules" publisherUrl="https://onepagerules.com/portfolio/grimdark-future-firefight/"/>
   </publications>
