@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4503-fc13-8f5b-fe41" name="Grimdark Future:  Firefight" revision="1" battleScribeVersion="2.03" authorName="Supernaut" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4503-fc13-8f5b-fe41" name="Grimdark Future:  Firefight" revision="2" battleScribeVersion="2.03" authorName="Supernaut" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a38b-c469-6ce5-b387" name="Grimdark Future: Firefight v2.12" shortName="GFF Core" publisher="Grimdark Future: Firefight Basic Rules" publisherUrl="https://onepagerules.com/portfolio/grimdark-future-firefight/"/>
   </publications>
@@ -52,4 +52,13 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <sharedRules>
+    <rule id="8643-02f2-80ac-b6eb" name="Ambush" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>You may choose not to deploy a model with this special rule with your army but instead keep it off the table in reserve.
+
+At the beginning of any round after the first you may place the model anywhere on the table over 9” away from enemy units.
+
+If both players have units with Ambush they must roll-off to see who deploys first, and then alternate in placing them.</description>
+    </rule>
+  </sharedRules>
 </gameSystem>
