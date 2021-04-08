@@ -60,5 +60,96 @@ At the beginning of any round after the first you may place the model anywhere o
 
 If both players have units with Ambush they must roll-off to see who deploys first, and then alternate in placing them.</description>
     </rule>
+    <rule id="ea55-cc1c-f48e-89da" name="AP(X)" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Enemy units taking hits from weapons with this special rule get -X to Defense rolls.</description>
+    </rule>
+    <rule id="cb22-6c8a-4dc6-3d39" name="Blast(X)" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Whenever enemy units take hits from a weapon with this special rule they multiply the hits by X, and hits may be split evenly among all enemy units within 3” of a single model, with the defender picking how.</description>
+    </rule>
+    <rule id="7cc5-4f66-8ace-337c" name="Deadly(X)" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Whenever a model takes wounds from a weapon with this special rule multiply the amount of wounds suffered by X.
+
+Note that wounds suffered by that model don’t carry over to other models if it dies.</description>
+    </rule>
+    <rule id="93fc-a941-15a1-314f" name="Fast" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Units with this special rule move 9” when using Advance actions and 18” when using Rush or Charge actions.</description>
+    </rule>
+    <rule id="b026-0878-1956-dc34" name="Fear" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>When in melee units with this special rule count as having caused +D3 wounds when checking for wound effects.
+
+Note that the unit must deal at least 1 wound from regular attacks to check for wound effects.</description>
+    </rule>
+    <rule id="3f00-826b-ef11-41e0" name="Fearless" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Units with this special rule get +1 to their morale test rolls.</description>
+    </rule>
+    <rule id="3608-10a6-9308-42f4" name="Flying" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Units with this special rule may move through other units and impassable terrain and they may ignore terrain effects.
+
+When dropping or leaping they only need to roll 2+ to succeed, and they may freely jump without having to roll for it.</description>
+    </rule>
+    <rule id="42f7-62ba-60a0-d911" name="Furious" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Whenever a model with this special rule charges an enemy it gets +1 attack with a weapon of your choice.</description>
+    </rule>
+    <rule id="7bad-6b36-671a-646b" name="Hero" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Friendly units within 12” of a model with this special rule may use its quality for morale tests instead of their own, as long as it is not Stunned.</description>
+    </rule>
+    <rule id="f4f5-4d48-88fc-4a41" name="Immobile" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Units with this special rule may never move regardless of which action they take and they can’t take Charge actions.</description>
+    </rule>
+    <rule id="0763-1d57-b1ec-5d9f" name="Impact(X)" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Whenever a model with this special rule charges it deals X automatic hits.</description>
+    </rule>
+    <rule id="e7ef-f51c-a10e-5daa" name="Indirect" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Weapons with this special rule may shoot at enemies that are not in line of sight and ignore cover from sight obstructions, however they get -1 to hit when shooting after moving.</description>
+    </rule>
+    <rule id="a7c5-0443-a3b4-79bf" name="Poison" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Whenever you roll an unmodified to hit result of 6 whilst firing this weapon that hit is multiplied by 3.</description>
+    </rule>
+    <rule id="917e-a54b-ad2e-5b06" name="Psychic(X)" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Models with this special rule may cast one spell at any point during their activation before attacking.
+
+To cast a spell select one from the psychic’s army list, pick a target in line of sight, and roll D6+X. If the result is equal to or higher than the number in brackets then you may resolve the spell’s effects.
+
+Spells may target a single unit, or split their hits/wounds or bonus/penalties evenly among all friendly/enemy units within 6” of a single model (target picks how). Enemy psychics within 18” and line of sight may also roll D6+X at the same time, and if the result is higher than that of the casting psychic, then the spell’s effects are blocked instead.
+
+Note that each psychic may only either try to cast a spell or try to block a spell each round.</description>
+    </rule>
+    <rule id="2abf-b372-3762-e643" name="Regeneration" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Whenever this model takes wounds, roll one die for each. On a 5+ the wound is ignored.</description>
+    </rule>
+    <rule id="2d4e-ce9c-7486-5e6a" name="Relentless" publicationId="a38b-c469-6ce5-b387" page="15" hidden="false">
+      <description>Whenever this model rolls an unmodified to hit result of 6 when shooting it may roll 1 extra attack. This rule doesn’t apply to newly generated attacks.</description>
+    </rule>
+    <rule id="7375-4ce4-7768-0acf" name="Rending" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Whenever you roll an unmodified to hit result of 6 whilst using this weapon that hit counts as having AP(4) and it ignores the Regeneration rule.</description>
+    </rule>
+    <rule id="cdee-fbf1-ecdc-28f4" name="Scout" publicationId="a38b-c469-6ce5-b387" hidden="false">
+      <description>After all other units have been deployed models with scout may be deployed and then moved by up to 12”, ignoring terrain.
+
+If both players have units with Scout they must roll-off to see who goes first, and then alternate in placing them.</description>
+    </rule>
+    <rule id="cf58-b5d8-d956-0c6e" name="Slow" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Units with this special rule move 4” when using Advance actions and 8” when using Rush or Charge actions.</description>
+    </rule>
+    <rule id="e6f5-22cf-0866-8cef" name="Sniper" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Models firing weapons with this special rule count as having Quality 2+ when rolling to hit, and the attacker may pick one model from the target unit as its target.
+
+Note that shooting is resolved as if the target was a unit of 1.</description>
+    </rule>
+    <rule id="5c15-c288-ac71-960a" name="Stealth" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Enemies targeting this unit get –1 to hit when shooting at it.</description>
+    </rule>
+    <rule id="61ce-c1db-3a5d-0b82" name="Strider" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Units with this special rule treat Difficult Terrain as Open Terrain when moving (may move more than 6”).
+
+When dropping, leaping or jumping they only need to roll 2+ to succeed the action.</description>
+    </rule>
+    <rule id="292a-f3ac-32a6-9a43" name="Tough(X)" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
+      <description>Models with this special only roll to check wound effects once they have taken at least X wound, and are only Knocked Out on rolls of 5+X or more.
+
+When Stunned and charged or hit by shooting, they take one wound instead of being Knocked Out, unless they already have X or more wounds.
+
+Example: A model with Tough(3) only rolls to check wound effects once it has taken at least 3 wounds, and then is only Knocked Out on rolls of 8 or more.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
