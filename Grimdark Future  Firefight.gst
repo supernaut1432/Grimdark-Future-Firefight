@@ -107,7 +107,7 @@ When dropping or leaping they only need to roll 2+ to succeed, and they may free
       <description>Weapons with this special rule may shoot at enemies that are not in line of sight and ignore cover from sight obstructions, however they get -1 to hit when shooting after moving.</description>
     </rule>
     <rule id="a7c5-0443-a3b4-79bf" name="Poison" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
-      <description>Whenever you roll an unmodified to hit result of 6 whilst firing this weapon that hit is multiplied by 3.</description>
+      <description>When rolling an unmodified 6 to hit, that hit is multiplied by 3.</description>
     </rule>
     <rule id="917e-a54b-ad2e-5b06" name="Psychic(X)" publicationId="a38b-c469-6ce5-b387" page="16" hidden="false">
       <description>Models with this special rule may cast one spell at any point during their activation before attacking.
