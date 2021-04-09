@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8610-9038-1f0a-5099" name="Elven King" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -7,9 +7,15 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">3+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">3+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Hero, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="61c6-b57a-7914-b03c" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="b18a-76ac-8d38-1b40" name="Hero" hidden="false" targetId="7bad-6b36-671a-646b" type="rule"/>
+        <infoLink id="bd78-8892-8755-b4be" name="Tough(X)" hidden="false" targetId="292a-f3ac-32a6-9a43" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="29ba-be98-9fc6-de38" name="New CategoryLink" hidden="false" targetId="731f-ae78-a24f-043d" primary="true"/>
       </categoryLinks>
@@ -41,17 +47,24 @@
               <infoLinks>
                 <infoLink id="5b8a-3791-5a88-3057" name="CCW (A2)" hidden="false" targetId="b441-dceb-1d9e-5584" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b08-bedc-a9a8-6ef6" name="CCW and shield" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="25dd-b106-33c3-ab6e" name="CCW (A2)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
+                <infoLink id="5ec3-c23c-7eb7-d4f3" name="Regeneration" hidden="false" targetId="2abf-b372-3762-e643" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="e954-163c-0661-3435" name="Energy sword" hidden="false" collective="false" import="true" targetId="6542-8494-2d3c-4b3d" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="edc6-716b-88b1-2e1e" name="CCW and shield" hidden="false" collective="false" import="true" targetId="964b-7634-2b73-026f" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="1549-06c1-4685-757e" value="20.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -91,13 +104,18 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="a6cf-cb72-bc8a-e69c" name="Hawk wings" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2e5e-6419-a9e7-7deb" name="Flying" hidden="false" targetId="3608-10a6-9308-42f4" type="rule"/>
+                <infoLink id="cf58-6fce-b872-de85" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="934d-13a6-d389-2b86" name="Spider suit" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="5927-8ca8-f6e7-3f17" name="Teleport" hidden="false" targetId="586e-6e70-cf5d-80fb" type="profile"/>
+                <infoLink id="5927-8ca8-f6e7-3f17" name="Teleport" hidden="false" targetId="fb17-6ab6-d111-004b" type="rule"/>
+                <infoLink id="c39d-af83-2c62-f04d" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="25.0"/>
@@ -125,14 +143,40 @@
     <selectionEntry id="f095-e9aa-05f7-9c8d" name="High Seer" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="169a-448b-2516-108f" name="High Seer" hidden="false" typeId="4cec-3002-fcbd-3a7b" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="f095-e9aa-05f7-9c8d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83a-0d21-4000-5c92" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">3+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Hero, Psychic(1), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8307-a896-6af1-6bd6" name="High Seer" hidden="false" typeId="4cec-3002-fcbd-3a7b" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="f095-e9aa-05f7-9c8d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e83a-0d21-4000-5c92" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">3+</characteristic>
+            <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Hero, Psychic(2), Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="4099-c193-8071-b7ac" name="Spells" hidden="false" targetId="c6c8-069a-f2a2-b74a" type="infoGroup"/>
+        <infoLink id="3491-74e5-5c75-d943" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="5ad4-5e9f-1e1c-d15a" name="Hero" hidden="false" targetId="7bad-6b36-671a-646b" type="rule"/>
+        <infoLink id="56ff-49fb-a5d2-11d9" name="Tough(X)" hidden="false" targetId="292a-f3ac-32a6-9a43" type="rule"/>
+        <infoLink id="713d-5a2c-62a4-6dfd" name="Psychic(X)" hidden="false" targetId="917e-a54b-ad2e-5b06" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4c15-453e-0d35-de64" name="New CategoryLink" hidden="false" targetId="731f-ae78-a24f-043d" primary="true"/>
@@ -182,14 +226,19 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Psychic(1), Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b037-d257-faa6-592e" name="Spells" hidden="false" targetId="c6c8-069a-f2a2-b74a" type="infoGroup"/>
+        <infoLink id="f827-47c7-7a46-b368" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="8207-3f49-fed7-72d2" name="Hero" hidden="false" targetId="7bad-6b36-671a-646b" type="rule"/>
+        <infoLink id="fb7e-2c06-6a21-eba5" name="Tough(X)" hidden="false" targetId="292a-f3ac-32a6-9a43" type="rule"/>
+        <infoLink id="17dc-2013-e54a-c1f8" name="Psychic(X)" hidden="false" targetId="917e-a54b-ad2e-5b06" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="98c0-0d99-0f6e-5409" name="New CategoryLink" hidden="false" targetId="731f-ae78-a24f-043d" primary="true"/>
+        <categoryLink id="e1a7-8cca-f47e-e9b9" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dda7-138f-b173-7475" name="Replace energy sword" hidden="false" collective="false" import="true" defaultSelectionEntryId="2412-f10b-e81f-4488">
@@ -220,9 +269,13 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">5+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a87d-6800-23a0-828f" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="02ee-ebdb-5089-ca26" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -237,6 +290,9 @@
               <infoLinks>
                 <infoLink id="6bb5-f921-e9a0-ba31" name="CCW (A2)" hidden="false" targetId="b441-dceb-1d9e-5584" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -259,7 +315,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">6</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
                   </characteristics>
                 </profile>
@@ -289,9 +345,13 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">5+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8033-6ce8-5500-9f6e" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3d9a-b9d1-85c1-eeb5" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -304,6 +364,9 @@
           <infoLinks>
             <infoLink id="03a8-8f34-2184-9744" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="977a-037e-8514-81ca" name="Shardgun" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -315,11 +378,17 @@
               <characteristics>
                 <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                 <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-                <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
+                <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
                 <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="7e65-8ff0-d7ba-bae8" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -339,6 +408,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="df71-c43a-db30-7c15" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="20.0"/>
               </costs>
@@ -362,6 +434,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="0e78-d313-69a0-348c" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                <infoLink id="2fef-73a1-439c-60ce" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+                <infoLink id="cd0e-289a-7678-4c55" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="30.0"/>
               </costs>
@@ -377,6 +454,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="1e6e-a248-1e7c-0663" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="30.0"/>
               </costs>
@@ -392,6 +472,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="38f0-5851-2e01-3840" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+                <infoLink id="e986-47ea-26dc-bfc4" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="55.0"/>
               </costs>
@@ -416,9 +500,16 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">5+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Scout, Stealth, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4f3b-922f-1acc-19f2" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="2bb7-9809-ff5b-a3b8" name="Stealth" hidden="false" targetId="5c15-c288-ac71-960a" type="rule"/>
+        <infoLink id="53cf-bcbb-54c8-02de" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
+        <infoLink id="eaea-25ff-3a0f-8049" name="Scout" hidden="false" targetId="cdee-fbf1-ecdc-28f4" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2860-3d5b-e7c3-2eb5" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -438,6 +529,13 @@
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="2d13-7bec-e834-61d9" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+            <infoLink id="dd2d-903b-f6e8-ae3f" name="Sniper" hidden="false" targetId="e6f5-22cf-0866-8cef" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="04fa-65f8-4051-39de" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -447,6 +545,9 @@
           <infoLinks>
             <infoLink id="146e-509e-fd38-8040" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -459,9 +560,13 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a1c7-dde1-daa4-3953" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ea67-8aa5-c8f5-0064" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -482,6 +587,9 @@
                   <infoLinks>
                     <infoLink id="1af0-fa56-ef63-26fb" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -506,6 +614,9 @@
                   <infoLinks>
                     <infoLink id="54e1-311b-e007-75de" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -516,6 +627,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="40dc-49f9-c148-e09e" name="Energy sword and shard pistol" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -532,6 +646,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="41dc-db36-361e-dc2e" name="Dire sword and shard pistol" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
@@ -550,6 +667,12 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="62e6-2c78-521b-3753" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -560,8 +683,14 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b750-677d-bb93-6323" name="Pistol, CCW and shield" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6279-d9b6-267e-3087" name="Regeneration" hidden="false" targetId="2abf-b372-3762-e643" type="rule"/>
+              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="3be9-bd21-0f0c-9581" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -571,6 +700,9 @@
                   <infoLinks>
                     <infoLink id="d91f-a038-7169-da15" name="CCW (A2)" hidden="false" targetId="b441-dceb-1d9e-5584" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -598,9 +730,14 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4a6a-46eb-0383-2e48" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="75b8-d3f5-81f5-2b74" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1198-1930-9244-be30" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -626,6 +763,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a482-f028-e1b6-3de2" name="Tri-sling and CCW" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
@@ -639,11 +779,14 @@
                       <characteristics>
                         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">3</characteristic>
-                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
-                        <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">0</characteristic>
+                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                        <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="266f-19b9-336b-50e4" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -653,8 +796,14 @@
                   <infoLinks>
                     <infoLink id="69b0-fb85-7639-5a9a" name="CCW (A2)" hidden="false" targetId="b441-dceb-1d9e-5584" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5974-e265-7054-5b23" name="Execution sword and pistol" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
@@ -673,6 +822,13 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="31b7-367d-1da3-0f25" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                    <infoLink id="c68f-62dc-e1a5-4e36" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -698,6 +854,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -719,9 +878,13 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">3+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Slow</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="6dec-bf4a-17f9-b42a" name="Slow" hidden="false" targetId="cf58-b5d8-d956-0c6e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c7be-149e-7dc8-6589" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -734,6 +897,9 @@
           <infoLinks>
             <infoLink id="daef-e3f0-6753-6812" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -754,6 +920,12 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="dc01-b05c-2d72-fdc5" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9cd8-5468-da25-9cab" name="Shot missiles" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -766,6 +938,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="935b-8b6b-cc57-4c80" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                <infoLink id="ad1b-f156-85cc-8ad5" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
               </costs>
@@ -781,6 +957,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="664d-3a65-b042-d138" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
+                <infoLink id="f97e-7678-c9e5-b23c" name="Indirect" hidden="false" targetId="e7ef-f51c-a10e-5daa" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="15.0"/>
               </costs>
@@ -805,9 +985,13 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">3+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="440f-b691-9f39-4626" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ad02-bf3a-997f-30c2" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -820,6 +1004,9 @@
           <infoLinks>
             <infoLink id="6308-17d3-c932-d830" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -840,6 +1027,12 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="22d2-8c13-0ce8-483f" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d8bf-539c-6813-f017" name="Fusion pike" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -852,6 +1045,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="5194-1c81-7cfb-59b4" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                <infoLink id="056e-dae3-8dc4-5932" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
               </costs>
@@ -876,9 +1073,15 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">3+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fast, Scout, Stealth</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="43fe-18ab-1f39-548a" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="e19c-45ef-fb43-93c5" name="Scout" hidden="false" targetId="cdee-fbf1-ecdc-28f4" type="rule"/>
+        <infoLink id="8097-8d15-d261-f7b7" name="Stealth" hidden="false" targetId="5c15-c288-ac71-960a" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c33c-c9f5-bff4-f224" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -906,6 +1109,9 @@
                   </entryLinks>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8248-3c87-46d1-e2a7" name="Scorpion fist and energy sword" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
@@ -924,6 +1130,12 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="d725-9457-fd3d-beb3" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -955,6 +1167,12 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="9252-d1d5-9cce-cc6e" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -965,6 +1183,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="57ab-883a-7c4a-dd91" name="Two Energy swords" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -992,9 +1213,14 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">3+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Ambush, Teleport</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8cfa-bd58-c6a7-47f4" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
+        <infoLink id="df44-fe22-5386-b9e7" name="Teleport" hidden="false" targetId="fb17-6ab6-d111-004b" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="08d6-9fed-bc29-b4ae" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -1029,6 +1255,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="2628-ecb9-e022-e884" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                <infoLink id="ef91-9efb-561d-4a2a" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
               </costs>
@@ -1048,6 +1278,9 @@
               <infoLinks>
                 <infoLink id="0733-38e6-f05e-2384" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c892-d228-e71f-7ceb" name="Two spider blades" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1060,6 +1293,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="0100-d1cd-999d-3235" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
               </costs>
@@ -1077,9 +1313,15 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">4+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Ambush, Fast, Flying</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="7ae5-078d-2393-a548" name="Fast" hidden="false" targetId="93fc-a941-15a1-314f" type="rule"/>
+        <infoLink id="5329-a276-2311-c85b" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
+        <infoLink id="4200-e5a4-69d6-3b36" name="Flying" hidden="false" targetId="3608-10a6-9308-42f4" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3e7f-325b-1efd-fb41" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -1101,6 +1343,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="9528-7657-110b-289d" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
               </costs>
@@ -1116,6 +1361,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="18fc-5d7c-e37e-cb72" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
               </costs>
@@ -1135,6 +1383,9 @@
               <infoLinks>
                 <infoLink id="d2e1-cc7a-ef7f-638e" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1156,9 +1407,14 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">3+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">2+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Fearless, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e5cb-d8bc-ea58-87f3" name="Fearless" hidden="false" targetId="3f00-826b-ef11-41e0" type="rule"/>
+        <infoLink id="1ef8-cb0e-cdba-0efa" name="Tough(X)" hidden="false" targetId="292a-f3ac-32a6-9a43" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="232f-3828-b9de-1abc" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -1186,6 +1442,12 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="9d8e-3b98-6eb7-e1b8" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="5fcb-5308-9306-86ee" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1195,8 +1457,14 @@
                   <infoLinks>
                     <infoLink id="e3b7-192f-1dc1-8e0b" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6f1c-7750-1649-7966" name="Two energy swords" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -1212,16 +1480,6 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="fa25-18e1-fd98-674c" name="Distortion gun and CCW" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="0e04-cf0d-37dd-0f21" name="Distortion gun" hidden="false" typeId="2c92-291a-eece-3203" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">6</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
-                    <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <selectionEntries>
                 <selectionEntry id="06c4-cec1-b842-822a" name="CCW" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -1231,6 +1489,31 @@
                   <infoLinks>
                     <infoLink id="c6d7-9900-4cfb-3c6d" name="CCW (A1)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b715-0162-d7ce-9361" name="Distortion gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4354-e4e1-a7f9-1de1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4264-09ac-9eb5-baad" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1424-4a99-dd72-327e" name="Distortion gun" hidden="false" typeId="2c92-291a-eece-3203" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">6</characteristic>
+                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                        <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="13ec-ae0f-8a79-2ce8" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1238,6 +1521,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="3803-4479-1f68-5a44" name="Energy sword and shield" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3923-a54f-6551-30b8" name="Regeneration" hidden="false" targetId="2abf-b372-3762-e643" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="4d04-9473-56aa-9489" name="Energy sword" hidden="false" collective="false" import="true" targetId="6542-8494-2d3c-4b3d" type="selectionEntry">
                   <constraints>
@@ -1263,14 +1549,20 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">5+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Impact(1), Strider, Very Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d613-a3fd-e2cd-dbdf" name="Very Fast" hidden="false" targetId="7fad-0c44-7107-c0c8" type="rule"/>
+        <infoLink id="9f63-2122-8f8e-9cc6" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
+        <infoLink id="7e5e-043d-c5b4-c4f2" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="33b9-bead-4576-f77a" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c242-eda0-8ddb-5c90" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c242-eda0-8ddb-5c90" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0bae-7b77-1ae1-1544">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db39-e9dd-ba1e-b829" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffaa-67d8-a2e3-eb37" type="max"/>
@@ -1286,6 +1578,9 @@
                   <infoLinks>
                     <infoLink id="5d69-8fac-9e3e-c83c" name="CCW (A2)" hidden="false" targetId="b441-dceb-1d9e-5584" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -1296,6 +1591,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1314,9 +1612,15 @@
           <characteristics>
             <characteristic name="Qua" typeId="2dfa-8c3f-24e8-6738">4+</characteristic>
             <characteristic name="Def" typeId="ddc6-a4bf-a141-512a">5+</characteristic>
+            <characteristic name="Special Rules" typeId="7d77-0c3d-eaf7-d32f">Impact(1), Strider, Very Fast</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d7c5-1289-030f-0a00" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
+        <infoLink id="fd14-fce5-d7ac-b042" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
+        <infoLink id="71e4-1710-051a-4b3f" name="Very Fast" hidden="false" targetId="7fad-0c44-7107-c0c8" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1ebf-bc40-9a13-5311" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
@@ -1338,6 +1642,13 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="3837-3a2b-2edb-323b" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
+                <infoLink id="8063-249b-ff91-78c5" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="501e-5c79-adea-ee2a" name="Star spear" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1350,6 +1661,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="e2c9-593e-a65e-1432" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+                <infoLink id="0d62-2a09-c6fd-9b12" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
               </costs>
@@ -1385,6 +1700,12 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d015-4a2f-5310-4c21" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="321a-0b8d-5d0d-6696" name="Shard carbine" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1397,6 +1718,12 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="14b4-36c6-a1bb-01de" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6542-8494-2d3c-4b3d" name="Energy sword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1409,11 +1736,13 @@
           </characteristics>
         </profile>
       </profiles>
-    </selectionEntry>
-    <selectionEntry id="964b-7634-2b73-026f" name="CCW and shield" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4589-6d20-c2af-3ffd" name="CCW (A2)" hidden="false" targetId="16a8-9c4f-d0f8-3df7" type="profile"/>
+        <infoLink id="b7d6-cca7-dcdf-6b0c" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+        <infoLink id="fce3-4438-7c2b-ef20" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b838-b34d-a340-7754" name="Web spinner" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1426,6 +1755,13 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f54a-7758-3082-ec82" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+        <infoLink id="fe9d-531d-7066-be1a" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="95f2-71f0-e377-45ae" name="Laser blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1438,6 +1774,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6ea2-507f-f9f2-474d" name="Fusion rifle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1450,6 +1789,13 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d45a-3003-d4c7-f07a" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
+        <infoLink id="6f70-c6c5-b34d-64c1" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a24e-b24a-86ea-9f67" name="Twin shardgun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1462,6 +1808,12 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="0fa4-054a-05ef-d998" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="39d9-a189-3579-0a10" name="Energy spear" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1474,13 +1826,21 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="45e6-6a55-a274-9610" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ec31-b2db-8510-c0ef" name="Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7855-f6b3-0dfd-dc74" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3ec9-b391-1d6b-2ea3" name="Very Fast" hidden="false" targetId="a009-5d8e-4abb-5b43" type="profile"/>
+        <infoLink id="3ec9-b391-1d6b-2ea3" name="Very Fast" hidden="false" targetId="7fad-0c44-7107-c0c8" type="rule"/>
+        <infoLink id="eed2-1164-c281-44ba" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
+        <infoLink id="84ae-14d5-04a9-f668" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="c1a5-1317-77f0-045b" name="Twin shardgun" hidden="false" collective="false" import="true" targetId="a24e-b24a-86ea-9f67" type="selectionEntry">
@@ -1490,6 +1850,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad12-cd38-af9a-eae3" name="Shard cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1502,13 +1865,34 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="5611-eb1b-eba9-38db" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
+        <infoLink id="d821-04b2-5973-2e02" name="AP(X)" hidden="false" targetId="ea55-cc1c-f48e-89da" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a1ea-3fd3-47b8-2fe1" name="Banshee howl" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13d-d422-e8ce-7ccd" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="5b7a-8685-0fc8-b169" name="Fear" hidden="false" targetId="b026-0878-1956-dc34" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="fb17-6ab6-d111-004b" name="Teleport" hidden="false">
+      <description>When this model is activated it may teleport by up to 6” in any direction, ignoring all units and terrain.</description>
+    </rule>
+    <rule id="7fad-0c44-7107-c0c8" name="Very Fast" hidden="false">
+      <description>This model moves 12” when using Advance and 24” when using Rush/Charge.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="16a8-9c4f-d0f8-3df7" name="CCW (A1)" hidden="false" typeId="2c92-291a-eece-3203" typeName="Weapon">
       <modifiers>
@@ -1519,16 +1903,6 @@
         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">1</characteristic>
         <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="586e-6e70-cf5d-80fb" name="Teleport" hidden="false" typeId="d7f6-e47f-ca5e-9015" typeName="Equipment">
-      <characteristics>
-        <characteristic name="Ability" typeId="b359-4631-7740-411e">When this model is activated it may teleport by up to 6” in any direction, ignoring all units and terrain.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a009-5d8e-4abb-5b43" name="Very Fast" hidden="false" typeId="05b2-52f7-7285-c005" typeName="Special Rules">
-      <characteristics>
-        <characteristic name="Description" typeId="44d3-9a99-f749-fd99">This model moves 12” when using Advance and 24” when using Rush/Charge.</characteristic>
       </characteristics>
     </profile>
     <profile id="b441-dceb-1d9e-5584" name="CCW (A2)" hidden="false" typeId="2c92-291a-eece-3203" typeName="Weapon">
