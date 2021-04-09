@@ -315,7 +315,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">6</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
                   </characteristics>
                 </profile>
@@ -378,7 +378,7 @@
               <characteristics>
                 <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                 <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-                <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                 <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
               </characteristics>
             </profile>
@@ -421,7 +421,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">48&quot;</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">1</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Blast(3)</characteristic>
                   </characteristics>
                 </profile>
@@ -779,7 +779,7 @@
                       <characteristics>
                         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">3</characteristic>
-                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
                       </characteristics>
                     </profile>
@@ -849,7 +849,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">Melee</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">3</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
                   </characteristics>
                 </profile>
@@ -952,7 +952,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">36&quot;</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Blast(3), Indirect</characteristic>
                   </characteristics>
                 </profile>
@@ -1125,7 +1125,7 @@
                       <characteristics>
                         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
                       </characteristics>
                     </profile>
@@ -1356,7 +1356,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">24&quot;</characteristic>
                     <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">3</characteristic>
-                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                    <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                     <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Poison</characteristic>
                   </characteristics>
                 </profile>
@@ -1503,7 +1503,7 @@
                       <characteristics>
                         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
                         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">6</characteristic>
-                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+                        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
                         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
                       </characteristics>
                     </profile>
@@ -1695,7 +1695,7 @@
           <characteristics>
             <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">12&quot;</characteristic>
             <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">1</characteristic>
-            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
             <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
           </characteristics>
         </profile>
@@ -1713,7 +1713,7 @@
           <characteristics>
             <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">18&quot;</characteristic>
             <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
             <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
           </characteristics>
         </profile>
@@ -1769,7 +1769,7 @@
           <characteristics>
             <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">24&quot;</characteristic>
             <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">3</characteristic>
-            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
             <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
           </characteristics>
         </profile>
@@ -1803,7 +1803,7 @@
           <characteristics>
             <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">24&quot;</characteristic>
             <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">4</characteristic>
-            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+            <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
             <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">Rending</characteristic>
           </characteristics>
         </profile>
@@ -1901,7 +1901,7 @@
       <characteristics>
         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">Melee</characteristic>
         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">1</characteristic>
-        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
       </characteristics>
     </profile>
@@ -1912,7 +1912,7 @@
       <characteristics>
         <characteristic name="Range" typeId="e3ae-f1ee-0a4c-a9ba">Melee</characteristic>
         <characteristic name="Attacks" typeId="ce99-74fb-fca1-48df">2</characteristic>
-        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">0</characteristic>
+        <characteristic name="AP" typeId="0b3e-ea4d-51df-81f1">-</characteristic>
         <characteristic name="Special Rules" typeId="6636-8baa-4920-3db5">-</characteristic>
       </characteristics>
     </profile>
