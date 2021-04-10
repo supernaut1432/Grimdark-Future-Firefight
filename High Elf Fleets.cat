@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="2" battleScribeVersion="2.03" authorName="Mad-Spy" authorContact="Discord: @Mad-Spy on OPR" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8610-9038-1f0a-5099" name="Elven King" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1559,7 +1559,7 @@
         <infoLink id="7e5e-043d-c5b4-c4f2" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="33b9-bead-4576-f77a" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
+        <categoryLink id="6714-afa4-06e1-e3a3" name="New CategoryLink" hidden="false" targetId="a5c7-9b2a-5f7a-864f" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c242-eda0-8ddb-5c90" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0bae-7b77-1ae1-1544">
@@ -1622,7 +1622,7 @@
         <infoLink id="71e4-1710-051a-4b3f" name="Very Fast" hidden="false" targetId="7fad-0c44-7107-c0c8" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1ebf-bc40-9a13-5311" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
+        <categoryLink id="5d1c-d106-9a70-4911" name="New CategoryLink" hidden="false" targetId="a5c7-9b2a-5f7a-864f" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="85cc-cffb-bfec-99ad" name="Replace laser spear" hidden="false" collective="false" import="true" defaultSelectionEntryId="c52f-d287-acf4-e343">
