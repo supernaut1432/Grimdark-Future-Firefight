@@ -45,6 +45,8 @@
     <categoryEntry id="a5c7-9b2a-5f7a-864f" name="Vehicles" hidden="false"/>
     <categoryEntry id="28dd-c7ac-0a0b-1997" name="Dark Elf Raiders" hidden="false"/>
     <categoryEntry id="e68c-fee1-8203-5743" name="Beasts" hidden="false"/>
+    <categoryEntry id="655f-4ade-356a-4810" name="Elven Jesters" hidden="false"/>
+    <categoryEntry id="de7b-0f28-708f-0e3c" name="Alien Hives" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="aba4-26bd-ba08-63c7" name="Team" hidden="false">
