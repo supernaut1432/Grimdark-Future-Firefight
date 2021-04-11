@@ -765,6 +765,19 @@
             <infoLink id="d60b-a126-7398-5d1b" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry id="38de-0fa4-3ddb-8d83" name="Anti-psychic" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ac-da88-0fb4-5234" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="05a6-b0f8-20f3-7917" name="Anti-psychic" hidden="false">
+              <description>This unit may block spells as if it had the Psychic(2) special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="1549-06c1-4685-757e" value="25.0"/>
@@ -787,6 +800,21 @@
       <categoryLinks>
         <categoryLink id="c1b6-7bc7-e970-5e79" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1649-1760-11f7-d73e" name="Anti-psychic" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d00-a9fc-cc21-f48d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1325-bf3a-fea6-7708" name="Anti-psychic" hidden="false">
+              <description>This unit may block spells as if it had the Psychic(2) special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="c6bc-3cc3-be6c-dab7" name="Prosecution rifle" hidden="false" collective="false" import="true" targetId="ca7f-0369-f63a-eebe" type="selectionEntry">
           <constraints>
@@ -817,6 +845,21 @@
       <categoryLinks>
         <categoryLink id="54b9-e98e-3bc0-201e" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e9b0-d598-db37-4e84" name="Anti-psychic" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9feb-80ff-f5de-d53c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="eebb-6f99-ae1d-85ca" name="Anti-psychic" hidden="false">
+              <description>This unit may block spells as if it had the Psychic(2) special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="c02c-b9cd-702d-0bb3" name="Flamethrower" hidden="false" collective="false" import="true" targetId="18eb-223b-87c8-f7e2" type="selectionEntry">
           <constraints>
