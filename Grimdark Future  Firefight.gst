@@ -157,5 +157,8 @@ When Stunned and charged or hit by shooting, they take one wound instead of bein
 
 Example: A model with Tough(3) only rolls to check wound effects once it has taken at least 3 wounds, and then is only Knocked Out on rolls of 8 or more.</description>
     </rule>
+    <rule id="e675-a254-1988-f3d5" name="Shield Wall" hidden="false">
+      <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
