@@ -47,6 +47,7 @@
     <categoryEntry id="e68c-fee1-8203-5743" name="Beasts" hidden="false"/>
     <categoryEntry id="655f-4ade-356a-4810" name="Elven Jesters" hidden="false"/>
     <categoryEntry id="de7b-0f28-708f-0e3c" name="Alien Hives" hidden="false"/>
+    <categoryEntry id="c906-f240-e44f-6bc3" name="Machine Cult" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="aba4-26bd-ba08-63c7" name="Team" hidden="false">
