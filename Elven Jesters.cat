@@ -117,6 +117,9 @@
           <infoLinks>
             <infoLink id="4a9d-4077-f8c1-bc19" name="CCW A4" hidden="false" targetId="5c89-beb2-8112-8171" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -219,6 +222,9 @@
           <infoLinks>
             <infoLink id="f326-8cde-a6f3-b98e" name="CCW A4" hidden="false" targetId="5c89-beb2-8112-8171" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -262,6 +268,9 @@
           <infoLinks>
             <infoLink id="f3d6-cfd7-9b05-3d70" name="CCW A2" hidden="false" targetId="bc37-b5e9-5a54-81b2" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -333,6 +342,9 @@
               <infoLinks>
                 <infoLink id="9851-c4fd-7fa0-6435" name="CCW A2" hidden="false" targetId="bc37-b5e9-5a54-81b2" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -398,6 +410,9 @@
           <infoLinks>
             <infoLink id="bf36-1213-c205-f72b" name="CCW A2" hidden="false" targetId="bc37-b5e9-5a54-81b2" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -459,7 +474,7 @@
         <infoLink id="1042-8bf2-d232-ba34" name="Furious" hidden="false" targetId="42f7-62ba-60a0-d911" type="rule"/>
         <infoLink id="e650-d250-01eb-f00c" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
         <infoLink id="2edf-e338-005f-624a" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
-        <infoLink id="e64f-0609-9749-5952" name="Very Fast" hidden="false" targetId="13eb-227c-5a91-484b" type="rule"/>
+        <infoLink id="e64f-0609-9749-5952" name="Very Fast" hidden="false" targetId="7bab-db98-f879-383d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="aaed-2ed8-4339-fa28" name="New CategoryLink" hidden="false" targetId="a5c7-9b2a-5f7a-864f" primary="true"/>
@@ -485,6 +500,9 @@
           <infoLinks>
             <infoLink id="39c9-61a4-ddf1-d273" name="CCW A2" hidden="false" targetId="bc37-b5e9-5a54-81b2" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -559,8 +577,11 @@
       <infoLinks>
         <infoLink id="40f0-2217-0229-0abb" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
         <infoLink id="6e8e-3c1c-5718-b9b8" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
-        <infoLink id="2103-79a7-0c1a-c434" name="Very Fast" hidden="false" targetId="13eb-227c-5a91-484b" type="rule"/>
+        <infoLink id="2103-79a7-0c1a-c434" name="Very Fast" hidden="false" targetId="7bab-db98-f879-383d" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77a8-5776-7e10-6414" name="Deathly Arts" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -576,6 +597,9 @@
       <infoLinks>
         <infoLink id="b59d-f37c-ed26-b130" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="621c-ef75-87ba-58b7" name="Shard Pistol" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -591,6 +615,9 @@
       <infoLinks>
         <infoLink id="8c1d-3e3c-0f8b-db9c" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="26df-ca8b-3696-0826" name="Sniper Cannon" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -607,6 +634,9 @@
         <infoLink id="569c-343c-9f00-637a" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
         <infoLink id="3864-2626-cc84-5ed5" name="Sniper" hidden="false" targetId="e6f5-22cf-0866-8cef" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2dc3-6cc7-9d03-4262" name="Exploding Bolas" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -622,6 +652,9 @@
       <infoLinks>
         <infoLink id="66f3-9505-617b-1ec1" name="Blast(X)" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8523-47a0-f21c-e79e" name="Energy Glaive" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -637,6 +670,9 @@
       <infoLinks>
         <infoLink id="61d3-1e91-9b7c-cc2c" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cc11-b323-dad0-7e59" name="Shard Cannon" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -652,11 +688,17 @@
       <infoLinks>
         <infoLink id="3d06-74ea-95ae-3631" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a935-e363-31e8-9acd" name="Graceful Brutality" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e652-b9c1-edbc-4f76" name="Graceful Brutality" hidden="false" targetId="a039-83f4-7355-307f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bfb2-1b28-3d9a-353b" name="Neuron Pistol" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -672,6 +714,9 @@
       <infoLinks>
         <infoLink id="6b90-3aed-08fe-a3fe" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ab02-8ba0-2327-b12b" name="Fusion Pistol" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -687,6 +732,9 @@
       <infoLinks>
         <infoLink id="0d20-ee9c-f145-79d5" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="025a-d922-8e38-2e49" name="Psychic(2)" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -696,6 +744,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9c11-e3cc-abf9-e979" name="GL-Backpack" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -711,6 +762,9 @@
       <infoLinks>
         <infoLink id="243f-2878-c597-b9e5" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b89-1e2d-f8cb-ec7e" name="Deathly Touch" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -723,6 +777,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="38fd-7897-7c8a-c6cf" name="Deathly Caress" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -738,6 +795,9 @@
       <infoLinks>
         <infoLink id="7ec7-3500-6ed2-1edd" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3630-c419-06bf-98ce" name="Deathly Kiss" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -750,6 +810,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b607-6a36-7ad4-6c2d" name="Deathly Embrace" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -765,6 +828,9 @@
       <infoLinks>
         <infoLink id="a8ca-5490-192a-72d6" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f252-b294-ec57-ee11" name="Energy Sword" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -780,6 +846,9 @@
       <infoLinks>
         <infoLink id="12c7-79e1-d432-49d2" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2308-bdeb-6ff4-6a39" name="EMP Cannon" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -796,6 +865,9 @@
         <infoLink id="b2de-572b-f154-7dda" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
         <infoLink id="84a1-c714-b0ca-c0e1" name="EMP" hidden="false" targetId="c404-6b41-83ac-4ef3" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -804,9 +876,6 @@
     </rule>
     <rule id="a039-83f4-7355-307f" name="Graceful Brutality" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false">
       <description>The hero and all friendly units within 12&quot; may move by up to 3&quot; after shooting attacks.</description>
-    </rule>
-    <rule id="13eb-227c-5a91-484b" name="Very Fast" publicationId="0994-d14c-634b-7b1b" page="2" hidden="false">
-      <description>This model moves 12&quot; when using Advance and 24&quot; when using Rush/Charge.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

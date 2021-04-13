@@ -160,5 +160,14 @@ Example: A model with Tough(3) only rolls to check wound effects once it has tak
     <rule id="e675-a254-1988-f3d5" name="Shield Wall" hidden="false">
       <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
     </rule>
+    <rule id="8940-94e8-10cf-5367" name="Repair" hidden="false">
+      <description>Once per turn, if within 2” of a unit with Tough, roll one die. On a 2+ you may repair 1 wound from the target.</description>
+    </rule>
+    <rule id="1563-a7db-2524-d4c3" name="Teleport" hidden="false">
+      <description>When this model is activated it may teleport by up to 6” in any direction, ignoring all units and terrain.</description>
+    </rule>
+    <rule id="7bab-db98-f879-383d" name="Very Fast" hidden="false">
+      <description>This model moves 12” when using Advance and 24” when using Rush/Charge.</description>
+    </rule>
   </sharedRules>
 </gameSystem>

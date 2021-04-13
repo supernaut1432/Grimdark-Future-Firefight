@@ -84,6 +84,9 @@
               <infoLinks>
                 <infoLink id="4240-c037-cd2d-5ed3" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -177,6 +180,9 @@
               <infoLinks>
                 <infoLink id="8cab-8fc8-3a9f-20af" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -412,6 +418,9 @@
           <infoLinks>
             <infoLink id="f01c-7270-c7f1-3ced" name="Claws A1" hidden="false" targetId="edc7-5f1e-79e2-774f" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -456,6 +465,9 @@
           <infoLinks>
             <infoLink id="d984-118a-86ec-5be3" name="Claws A3" hidden="false" targetId="9c70-8c67-7383-93b4" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -647,6 +659,9 @@
               <infoLinks>
                 <infoLink id="9c1a-1b8d-c932-9ad6" name="CCW A1" hidden="false" targetId="1c6d-4170-6688-ee85" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -736,6 +751,9 @@
               <infoLinks>
                 <infoLink id="88ea-55ab-56db-1988" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0b5c-985f-c269-ddda" name="CCW A1" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -752,6 +770,9 @@
               <infoLinks>
                 <infoLink id="2891-df77-b9b1-668d" name="CCW A1" hidden="false" targetId="1c6d-4170-6688-ee85" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -909,6 +930,9 @@
               <infoLinks>
                 <infoLink id="ec28-b37c-a59f-cc15" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1019,6 +1043,9 @@
               <infoLinks>
                 <infoLink id="da20-16f7-4bfd-185e" name="CCW A1" hidden="false" targetId="1c6d-4170-6688-ee85" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1122,6 +1149,9 @@
           <infoLinks>
             <infoLink id="918a-7fbe-b79f-891f" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1149,7 +1179,7 @@
       <infoLinks>
         <infoLink id="dab9-04f8-6b25-5563" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
         <infoLink id="8b92-c6a5-d144-b499" name="Strider" hidden="false" targetId="61ce-c1db-3a5d-0b82" type="rule"/>
-        <infoLink id="da08-783f-bb78-9946" name="Very Fast" hidden="false" targetId="4079-7021-6b2b-dce8" type="rule"/>
+        <infoLink id="da08-783f-bb78-9946" name="Very Fast" hidden="false" targetId="7bab-db98-f879-383d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6357-28c3-947c-27ae" name="New CategoryLink" hidden="false" targetId="a5c7-9b2a-5f7a-864f" primary="true"/>
@@ -1172,6 +1202,9 @@
               <infoLinks>
                 <infoLink id="a8f8-37b2-51e5-ec57" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1280,6 +1313,9 @@
               <infoLinks>
                 <infoLink id="da61-7318-dade-9ab7" name="CCW A2" hidden="false" targetId="dce1-fb35-7692-6d84" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1340,6 +1376,9 @@
           <infoLinks>
             <infoLink id="4cf7-7e03-7b5b-82fb" name="Claws A4" hidden="false" targetId="2d1e-5a17-3d5a-fd0f" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1430,6 +1469,9 @@
           <infoLinks>
             <infoLink id="26e0-0582-14eb-eeee" name="Claws A3" hidden="false" targetId="9c70-8c67-7383-93b4" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1466,6 +1508,9 @@
       <infoLinks>
         <infoLink id="d3f0-0f22-1ed3-0779" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="36c7-073a-cad6-50fe" name="Grenade Launcher" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1481,6 +1526,9 @@
       <infoLinks>
         <infoLink id="459d-fc82-147c-e197" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c731-9bd7-d837-7f4e" name="Fusion Pistol" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1496,6 +1544,9 @@
       <infoLinks>
         <infoLink id="2f4c-e052-8533-90cb" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3e1e-ade6-86d1-8364" name="Fusion Carbine" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1511,6 +1562,9 @@
       <infoLinks>
         <infoLink id="9f9d-08a5-e0d6-718e" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1154-f327-9885-e419" name="Agony Whip" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1527,6 +1581,9 @@
         <infoLink id="f686-5ab1-85c9-c0aa" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
         <infoLink id="bc7f-9e4b-fd6f-225d" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fae4-c862-8fbc-28f1" name="Shell Sword" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1542,6 +1599,9 @@
       <infoLinks>
         <infoLink id="2a8c-8cd4-e3fa-760e" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0cee-d656-860c-b10b" name="Energy Sword" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1557,6 +1617,9 @@
       <infoLinks>
         <infoLink id="59ee-d49b-d773-61ba" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="67c0-31ef-2eab-9ad9" name="Dark Strike" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1577,6 +1640,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="374d-64fc-c589-7ef7" name="2x Crystal Gauntlets" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1589,6 +1655,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ccf-ac95-fb42-1a0c" name="2x Sword-Flails" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1601,6 +1670,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="90dc-3085-1371-90ef" name="Net &amp; Spear" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1613,6 +1685,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="404d-1b90-18c6-d3f7" name="Acid Gun" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1628,6 +1703,9 @@
       <infoLinks>
         <infoLink id="4f51-7486-7db0-85a4" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="778a-6762-caec-829a" name="Arcane Rifle" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1644,6 +1722,9 @@
         <infoLink id="ed93-1512-38ce-24bf" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
         <infoLink id="3cf2-ea5a-0368-59ea" name="Sniper" hidden="false" targetId="e6f5-22cf-0866-8cef" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9ec4-4ec2-9105-0fbe" name="Venom Sword" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1659,6 +1740,9 @@
       <infoLinks>
         <infoLink id="7021-a8f3-4193-0591" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a779-9174-0403-b732" name="Corrosive Whip" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1671,6 +1755,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="505c-1f98-a10a-c629" name="Leech Gauntlet" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1683,6 +1770,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c6a5-6bd8-2049-7e40" name="Scissor Gauntlet" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1698,6 +1788,9 @@
       <infoLinks>
         <infoLink id="b15f-5513-6099-a80d" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3d74-8e49-a88a-470e" name="Syringe Gauntlet" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1713,6 +1806,9 @@
       <infoLinks>
         <infoLink id="add2-e740-df9a-2559" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4e83-9245-8d39-0842" name="Syringe Pistol" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1725,6 +1821,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6d97-3232-44c3-4b8e" name="Torture Master" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1753,6 +1852,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7b42-563c-4bef-0de7" name="Toxic Katana" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1768,6 +1870,9 @@
       <infoLinks>
         <infoLink id="4ea1-4219-bce2-c331" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c5d1-3015-435d-f0ee" name="Death Gaze" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1780,11 +1885,17 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa7a-fbed-1f99-423e" name="Veteran Infantry" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="299f-81a9-1f0c-8276" name="Veteran Infantry" hidden="false" targetId="2824-6a1c-34b6-79d7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6a67-41fe-2fbc-88f4" name="Barb Carbine" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1800,6 +1911,9 @@
       <infoLinks>
         <infoLink id="3455-8410-e051-11c0" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6cd1-60aa-42e3-6645" name="Bone Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1815,6 +1929,9 @@
       <infoLinks>
         <infoLink id="4ce2-9000-2ba4-2ae7" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="561d-464a-fdbe-a310" name="Barb Rifle" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1830,6 +1947,9 @@
       <infoLinks>
         <infoLink id="ad6e-e77e-5867-e2d5" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6370-4752-d1e4-49c8" name="Flamethrower" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1842,6 +1962,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5889-fe1a-2ffd-1100" name="Shred Gun" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1858,6 +1981,9 @@
         <infoLink id="5618-5357-8975-9485" name="Blast(X)" hidden="false" targetId="cb22-6c8a-4dc6-3d39" type="rule"/>
         <infoLink id="62e5-2d94-8aed-8cef" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="59ba-92b2-7a04-8a75" name="EMP Rifle" publicationId="2bd3-7a27-0921-86cc" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1873,6 +1999,9 @@
       <infoLinks>
         <infoLink id="9885-148b-4fdb-422a" name="EMP" hidden="false" targetId="d560-f004-35b7-fdcc" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="890b-9023-7f50-4e7d" name="Barb Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1888,6 +2017,9 @@
       <infoLinks>
         <infoLink id="3cae-6e00-b9c9-cd73" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91cb-6b59-db91-7e4e" name="Heavy Fusion Carbine" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1903,6 +2035,9 @@
       <infoLinks>
         <infoLink id="963b-4f8e-b386-32bb" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="095a-644b-5cd3-79b2" name="Fusion Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1918,6 +2053,9 @@
       <infoLinks>
         <infoLink id="8ce9-0499-ef09-59fa" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2c09-9ca9-32fb-8c05" name="Energy Lance" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1933,6 +2071,9 @@
       <infoLinks>
         <infoLink id="59e1-dce2-ab83-2b6c" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="21af-292a-25d8-aa1a" name="Energy Blast" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1945,6 +2086,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="335d-a032-2bcd-052c" name="Razor Talon" publicationId="2bd3-7a27-0921-86cc" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1957,6 +2101,9 @@
       <infoLinks>
         <infoLink id="24a3-4d02-ab2e-030c" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b3f5-8d5b-08e9-c6f2" name="Razor Caltrops" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1969,6 +2116,9 @@
       <infoLinks>
         <infoLink id="d90f-a929-2a38-b040" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1956-55ca-1381-a330" name="Twin Barbgun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1984,6 +2134,9 @@
       <infoLinks>
         <infoLink id="f936-0ee1-5ace-1476" name="Poison" hidden="false" targetId="a7c5-0443-a3b4-79bf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="950d-3742-f860-0969" name="Grapple Claw" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1999,6 +2152,9 @@
       <infoLinks>
         <infoLink id="1241-2ebe-99ed-e0b9" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8edd-0fbf-bcf8-4201" name="Swarm Attacks" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2014,6 +2170,9 @@
       <infoLinks>
         <infoLink id="4ee4-7c2e-6043-07f9" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -2028,9 +2187,6 @@
     </rule>
     <rule id="588d-298d-9dbc-7b73" name="Torture Master" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false">
       <description>The hero and all friendly units within 12&quot; may ignore wounds from Regeneration on 4+.</description>
-    </rule>
-    <rule id="4079-7021-6b2b-dce8" name="Very Fast" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false">
-      <description>This model moves 12&quot; when using Advance and 24&quot; when using Rush/Charge.</description>
     </rule>
     <rule id="2824-6a1c-34b6-79d7" name="Veteran Infantry" publicationId="2bd3-7a27-0921-86cc" page="2" hidden="false">
       <description>This model gets +1 to its attack rolls for melee and shooting.</description>
