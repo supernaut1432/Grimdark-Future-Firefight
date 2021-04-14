@@ -3466,6 +3466,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d931-ab6e-ff18-dcab" name="Medical Training" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fdf-cde4-569f-1ba3" type="max"/>
+      </constraints>
       <profiles>
         <profile id="d763-5556-2007-ef22" name="Medical Training" hidden="false" typeId="05b2-52f7-7285-c005" typeName="Special Rules">
           <characteristics>
@@ -3566,6 +3569,64 @@
         <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4549-1733-6501-c2c4" name="Veteran Infantry" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c115-c1b5-56e2-e5ca" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="de08-9fe9-a08d-eeed" name="Veteran Infantry" hidden="false">
+          <description>This model gets +1 to its attack rolls for melee and shooting.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e837-00dd-d4c9-f33a" name="Blood Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12b5-1216-dc3a-c723" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="1091-4741-2a05-18df" name="Blood Brothers Spells" hidden="false" targetId="0784-45d7-e3c1-3ec2" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a16d-5112-a042-e090" name="Knight Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53a9-bb08-c3b6-2677" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3ac5-be2a-d766-4426" name="Knight Brothers Spells" hidden="false" targetId="500c-e630-da0b-7c0f" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0b-4cc7-9551-37c9" name="Wolf Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e3b-d53f-f466-7b56" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="e454-c90c-92a7-8d6f" name="Wolf Brothers Spells" hidden="false" targetId="dd86-6c37-e196-4150" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9b91-bc73-0aac-c9a3" name="Detachment" hidden="false" collective="false" import="true">
@@ -3653,37 +3714,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce26-d366-73e9-0b1b" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="a3a1-701a-ac99-30e0" name="Blood Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12b5-1216-dc3a-c723" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <infoLinks>
-            <infoLink id="3e59-7773-3b33-add4" name="Blood Brothers Spells" hidden="false" targetId="0784-45d7-e3c1-3ec2" type="infoGroup"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0652-7f44-7bee-a50f" name="Knight Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53a9-bb08-c3b6-2677" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <infoLinks>
-            <infoLink id="8a0f-20fb-30b0-1403" name="Knight Brothers Spells" hidden="false" targetId="500c-e630-da0b-7c0f" type="infoGroup"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1f79-b177-2014-3835" name="*Brother Spells*" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1f79-b177-2014-3835" name="*Standard Spells*" hidden="false" collective="false" import="true" type="upgrade">
           <infoGroups>
             <infoGroup id="5231-87ef-b368-edce" name="Psychic Spells" hidden="false">
               <profiles>
@@ -3724,22 +3755,12 @@
             <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d1a-deb0-0144-0d10" name="Wolf Brother Spells" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e3b-d53f-f466-7b56" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <infoLinks>
-            <infoLink id="1ce4-2f30-6179-20a7" name="Wolf Brothers Spells" hidden="false" targetId="dd86-6c37-e196-4150" type="infoGroup"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="81e5-425b-e50f-5ac5" name="Blood Brother Spells" hidden="false" collective="false" import="true" targetId="e837-00dd-d4c9-f33a" type="selectionEntry"/>
+        <entryLink id="864a-fd87-96c1-c7fb" name="Knight Brother Spells" hidden="false" collective="false" import="true" targetId="a16d-5112-a042-e090" type="selectionEntry"/>
+        <entryLink id="48b5-3fb2-8f1b-02bb" name="Wolf Brother Spells" hidden="false" collective="false" import="true" targetId="7f0b-4cc7-9551-37c9" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2ebc-0ed5-68db-a062" name="Replace energy sword" hidden="false" collective="false" import="true" defaultSelectionEntryId="726a-bd01-63b6-68e0">
       <constraints>
@@ -3937,6 +3958,9 @@
     </rule>
     <rule id="655e-cee8-911a-4824" name="Counter" hidden="false">
       <description>Counter: This model gets +1 melee attack with a weapon of your choice when charged.</description>
+    </rule>
+    <rule id="987d-8c0b-d432-0891" name="War Chant" hidden="false">
+      <description>The hero and all friendly units within 12” get +1 attack when charging.</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>

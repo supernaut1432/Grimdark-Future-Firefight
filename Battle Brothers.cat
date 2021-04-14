@@ -24,7 +24,7 @@
         <entryLink id="edb8-a820-6bc8-d4d9" name="Weapons" hidden="false" collective="false" import="true" targetId="6cf8-c1f9-accd-5269" type="selectionEntryGroup"/>
         <entryLink id="0149-0b9f-51a6-8111" name="Assault rifle attachment" hidden="false" collective="false" import="true" targetId="234c-98f9-30d1-8954" type="selectionEntryGroup"/>
         <entryLink id="58ea-f22e-3c66-de8d" name="B | Upgrade with one:" hidden="false" collective="false" import="true" targetId="baa1-93d1-7182-3501" type="selectionEntryGroup"/>
-        <entryLink id="0699-bd55-f68a-a339" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="0699-bd55-f68a-a339" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="f903-76b3-b943-fad2" name="C | Upgrade with one:" hidden="false" collective="false" import="true" targetId="f648-1843-a8cf-b1f4" type="selectionEntryGroup"/>
         <entryLink id="effc-08ed-4da1-e402" name="Upgrade with Aegis" hidden="false" collective="false" import="true" targetId="69d9-5aff-707c-7118" type="selectionEntry"/>
         <entryLink id="94fb-b403-2ac2-890a" name="Upgrade with Counter" hidden="false" collective="false" import="true" targetId="0fa7-8c68-ec6a-02c9" type="selectionEntry"/>
@@ -84,7 +84,7 @@
         <entryLink id="1366-d9db-7239-e507" name="B | Upgrade with one:" hidden="false" collective="false" import="true" targetId="baa1-93d1-7182-3501" type="selectionEntryGroup"/>
         <entryLink id="0d7e-051e-a397-962e" name="C | Upgrade with one:" hidden="false" collective="false" import="true" targetId="f648-1843-a8cf-b1f4" type="selectionEntryGroup"/>
         <entryLink id="38f0-8e72-25d4-6018" name="Assault rifle attachment" hidden="false" collective="false" import="true" targetId="234c-98f9-30d1-8954" type="selectionEntryGroup"/>
-        <entryLink id="614b-629c-f9ef-2497" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="614b-629c-f9ef-2497" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="e2ce-7dcf-b45f-b6c4" name="Upgrade with Aegis" hidden="false" collective="false" import="true" targetId="69d9-5aff-707c-7118" type="selectionEntry"/>
         <entryLink id="d2b8-8501-984a-63ab" name="Upgrade with Counter" hidden="false" collective="false" import="true" targetId="0fa7-8c68-ec6a-02c9" type="selectionEntry"/>
         <entryLink id="82a3-7bf8-c0be-ba8c" name="Upgrade with Dark Assault" hidden="false" collective="false" import="true" targetId="b5e0-a5b2-a56f-7b06" type="selectionEntry">
@@ -134,7 +134,7 @@
         <entryLink id="9144-4a53-8bf6-3b23" name="Assault rifle attachment" hidden="false" collective="false" import="true" targetId="234c-98f9-30d1-8954" type="selectionEntryGroup"/>
         <entryLink id="987a-fd42-1aab-e2e6" name="B | Upgrade with one:" hidden="false" collective="false" import="true" targetId="baa1-93d1-7182-3501" type="selectionEntryGroup"/>
         <entryLink id="9916-4ce6-d9f9-c630" name="Weapons" hidden="false" collective="false" import="true" targetId="6cf8-c1f9-accd-5269" type="selectionEntryGroup"/>
-        <entryLink id="d74f-c870-ad44-2afb" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="d74f-c870-ad44-2afb" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="8625-5f4c-f8ec-bc3c" name="Upgrade with Aegis" hidden="false" collective="false" import="true" targetId="69d9-5aff-707c-7118" type="selectionEntry"/>
         <entryLink id="9ca7-aeaa-a56b-1ef4" name="Upgrade with Counter" hidden="false" collective="false" import="true" targetId="0fa7-8c68-ec6a-02c9" type="selectionEntry"/>
         <entryLink id="ebe9-2238-5634-d758" name="Upgrade with Dark Assault" hidden="false" collective="false" import="true" targetId="b5e0-a5b2-a56f-7b06" type="selectionEntry">
@@ -221,7 +221,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2332-5358-4cef-318a" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="2332-5358-4cef-318a" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="8142-2175-5ad6-b7d9" name="Weapons" hidden="false" collective="false" import="true" targetId="6cf8-c1f9-accd-5269" type="selectionEntryGroup"/>
         <entryLink id="5fa6-5549-2e64-b50c" name="Assault rifle attachment" hidden="false" collective="false" import="true" targetId="234c-98f9-30d1-8954" type="selectionEntryGroup"/>
         <entryLink id="998f-2b40-d625-e225" name="B | Upgrade with one:" hidden="false" collective="false" import="true" targetId="baa1-93d1-7182-3501" type="selectionEntryGroup"/>
@@ -354,7 +354,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="edd9-f29e-95d8-f185" name="Weapons" hidden="false" collective="false" import="true" targetId="6cf8-c1f9-accd-5269" type="selectionEntryGroup"/>
-        <entryLink id="12f0-dd47-3ab7-53b7" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="12f0-dd47-3ab7-53b7" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="ae83-2ca6-3e1a-2721" name="Assault rifle attachment" hidden="false" collective="false" import="true" targetId="234c-98f9-30d1-8954" type="selectionEntryGroup"/>
         <entryLink id="03c6-9c41-e063-c362" name="Upgrade with Aegis" hidden="false" collective="false" import="true" targetId="69d9-5aff-707c-7118" type="selectionEntry"/>
         <entryLink id="0fa9-bb75-de8c-6670" name="Upgrade with Counter" hidden="false" collective="false" import="true" targetId="0fa7-8c68-ec6a-02c9" type="selectionEntry"/>
@@ -488,7 +488,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7c11-86b8-e2b3-419f" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="b57a-9544-bac3-e364" type="selectionEntry"/>
+        <entryLink id="7c11-86b8-e2b3-419f" name="Veteran Infantry" hidden="false" collective="false" import="true" targetId="4549-1733-6501-c2c4" type="selectionEntry"/>
         <entryLink id="c473-cb30-e9ec-684e" name="Jetpack" hidden="false" collective="false" import="true" targetId="19ac-2d46-5fe1-aa50" type="selectionEntry"/>
         <entryLink id="9060-4f4f-c23d-cb96" name="Upgrade with Aegis" hidden="false" collective="false" import="true" targetId="69d9-5aff-707c-7118" type="selectionEntry"/>
         <entryLink id="ec2a-ecc9-145d-aba8" name="Upgrade with Counter" hidden="false" collective="false" import="true" targetId="0fa7-8c68-ec6a-02c9" type="selectionEntry"/>
@@ -862,21 +862,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <sharedSelectionEntries>
-    <selectionEntry id="b57a-9544-bac3-e364" name="Veteran Infantry" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e12-0570-2e90-1896" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="4f9d-b0b5-c09c-148a" name="Veteran Infantry" hidden="false">
-          <description>This model gets +1 to its attack rolls for melee and shooting.</description>
-        </rule>
-      </rules>
-      <costs>
-        <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6cf8-c1f9-accd-5269" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9901-72b1-0663-a581">
       <modifiers>
@@ -1336,11 +1321,9 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="e0da-52ab-121e-2954" name="War Chant" hidden="false" collective="false" import="true" type="upgrade">
-          <rules>
-            <rule id="9ad7-1e7e-b44f-027c" name="War Chant" hidden="false">
-              <description>The hero and all friendly units within 12” get +1 attack when charging.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="8a07-d58d-c4dd-c118" name="War Chant" hidden="false" targetId="987d-8c0b-d432-0891" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="1549-06c1-4685-757e" value="10.0"/>
           </costs>
@@ -1348,7 +1331,7 @@
         <selectionEntry id="394c-d352-4bf0-4dcc" name="Advanced Tactics" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="f029-e00e-a944-6694" name="Advanced Tactics" hidden="false">
-              <description>Tactics: The hero and all friendly units within 12” get +3” range when shooting and +3” range when using charge actions.</description>
+              <description>The hero and all friendly units within 12” get +3” range when shooting and +3” range when using charge actions.</description>
             </rule>
           </rules>
           <costs>
