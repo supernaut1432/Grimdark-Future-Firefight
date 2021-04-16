@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="2" battleScribeVersion="2.03" authorName="Mad-Spy" authorContact="Discord: @Mad-Spy on OPR" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5cd3-ad3d-e4e0-ac82" name="High Elf Fleets" revision="3" battleScribeVersion="2.03" authorName="Mad-Spy" authorContact="Discord: @Mad-Spy on OPR" library="false" gameSystemId="4503-fc13-8f5b-fe41" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6e6d-650a-6a72-0997" name="GFF: High Elf Fleets v2.9" shortName="High Elf Fleets v2.9" publisher="Grim Dark Future: Firefight" publicationDate="2021-02-10" publisherUrl="https://onepagerules.com/portfolio/grimdark-future-firefight/"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="8610-9038-1f0a-5099" name="Elven King" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -104,6 +107,13 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="a6cf-cb72-bc8a-e69c" name="Hawk wings" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="629b-eece-862e-2ebe" name="Hawk wings" hidden="false" typeId="d7f6-e47f-ca5e-9015" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="b359-4631-7740-411e">Ambush, Flying</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="2e5e-6419-a9e7-7deb" name="Flying" hidden="false" targetId="3608-10a6-9308-42f4" type="rule"/>
                 <infoLink id="cf58-6fce-b872-de85" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
@@ -113,6 +123,13 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="934d-13a6-d389-2b86" name="Spider suit" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b559-9187-82e8-a9be" name="Spider suit" hidden="false" typeId="d7f6-e47f-ca5e-9015" typeName="Equipment">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="b359-4631-7740-411e">Ambush, Teleport</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="5927-8ca8-f6e7-3f17" name="Teleport" hidden="false" targetId="1563-a7db-2524-d4c3" type="rule"/>
                 <infoLink id="c39d-af83-2c62-f04d" name="Ambush" hidden="false" targetId="8643-02f2-80ac-b6eb" type="rule"/>
@@ -1837,6 +1854,13 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7855-f6b3-0dfd-dc74" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="0640-2c5f-9a5a-bf35" name="Jetbike" hidden="false" typeId="d7f6-e47f-ca5e-9015" typeName="Equipment">
+          <characteristics>
+            <characteristic name="Ability" typeId="b359-4631-7740-411e">Impact(1), Strider, Very Fast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="3ec9-b391-1d6b-2ea3" name="Very Fast" hidden="false" targetId="7bab-db98-f879-383d" type="rule"/>
         <infoLink id="eed2-1164-c281-44ba" name="Impact(X)" hidden="false" targetId="0763-1d57-b1ec-5d9f" type="rule"/>
@@ -1873,10 +1897,17 @@
         <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1ea-3fd3-47b8-2fe1" name="Banshee howl" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a1ea-3fd3-47b8-2fe1" name="Banshee howl" publicationId="6e6d-650a-6a72-0997" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13d-d422-e8ce-7ccd" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="bdc0-bbe2-c9e2-0485" name="Banshee howl" hidden="false" typeId="05b2-52f7-7285-c005" typeName="Special Rules">
+          <characteristics>
+            <characteristic name="Description" typeId="44d3-9a99-f749-fd99">Fear</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="5b7a-8685-0fc8-b169" name="Fear" hidden="false" targetId="b026-0878-1956-dc34" type="rule"/>
       </infoLinks>
