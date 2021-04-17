@@ -49,6 +49,7 @@
     <categoryEntry id="de7b-0f28-708f-0e3c" name="Alien Hives" hidden="false"/>
     <categoryEntry id="c906-f240-e44f-6bc3" name="Machine Cult" hidden="false"/>
     <categoryEntry id="ed37-d2ab-2028-c5b6" name="Robot Legions" hidden="false"/>
+    <categoryEntry id="cc19-cb66-e23a-6f92" name="Ratmen Clans" publicationId="a38b-c469-6ce5-b387" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="aba4-26bd-ba08-63c7" name="Team" hidden="false">
