@@ -3476,11 +3476,9 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="b325-4bb0-6134-5cd1" name="Medical Training" hidden="false">
-          <description>This model and all friendly units within 12” get the Regeneration rule.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="a074-12b3-7da5-1c10" name="Medical Training" hidden="false" targetId="b22c-feba-e423-977b" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="1549-06c1-4685-757e" value="45.0"/>
       </costs>

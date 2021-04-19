@@ -172,5 +172,8 @@ Example: A model with Tough(3) only rolls to check wound effects once it has tak
     <rule id="7bab-db98-f879-383d" name="Very Fast" hidden="false">
       <description>This model moves 12” when using Advance and 24” when using Rush/Charge.</description>
     </rule>
+    <rule id="b22c-feba-e423-977b" name="Medical Training" hidden="false">
+      <description>This model and all friendly units within 12” get the Regeneration rule.</description>
+    </rule>
   </sharedRules>
 </gameSystem>

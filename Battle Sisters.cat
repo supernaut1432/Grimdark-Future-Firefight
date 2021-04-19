@@ -73,6 +73,9 @@
               <infoLinks>
                 <infoLink id="dd02-e49a-7bfe-d2e1" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -463,6 +466,9 @@
               <infoLinks>
                 <infoLink id="a8c4-f73c-964c-3203" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -745,6 +751,9 @@
               <infoLinks>
                 <infoLink id="12f2-3675-c28e-1eff" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1033,6 +1042,9 @@
               <infoLinks>
                 <infoLink id="3114-d1a8-07f3-c943" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1251,6 +1263,9 @@
               <infoLinks>
                 <infoLink id="d1bc-6b14-9293-603d" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1395,6 +1410,9 @@
               <infoLinks>
                 <infoLink id="9c2f-b8c8-c7bf-43c4" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1611,6 +1629,9 @@
               <infoLinks>
                 <infoLink id="e94d-eca9-21d8-71db" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1896,6 +1917,9 @@
               <infoLinks>
                 <infoLink id="b0fd-0682-ac70-cbf9" name="CCW (A2)" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2078,7 +2102,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="69ee-e40e-6aab-62a1" name="Shield Wall" hidden="false" targetId="cb6b-5962-1001-0048" type="rule"/>
+        <infoLink id="69ee-e40e-6aab-62a1" name="Shield Wall" hidden="false" targetId="e675-a254-1988-f3d5" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="187d-5ba4-945c-fe10" name="New CategoryLink" hidden="false" targetId="e108-7f03-5301-c340" primary="true"/>
@@ -2287,6 +2311,9 @@
               <infoLinks>
                 <infoLink id="5954-5ab5-5f62-ec8a" name="CCW (A2)" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="2d51-7120-e11b-634b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2515,7 +2542,7 @@
     </selectionEntry>
     <selectionEntry id="e137-74ec-f70a-c6dd" name="Medical Training" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6e4e-13f2-67c5-b980" name="Medical Training" publicationId="6298-159c-a477-185d" page="2" hidden="false" targetId="842d-621b-ee16-9038" type="rule"/>
+        <infoLink id="556d-1882-19c4-4417" name="Medical Training" hidden="false" targetId="b22c-feba-e423-977b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
@@ -2791,6 +2818,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9002-4001-0ba3-cc55" name="2x Pistols" publicationId="6298-159c-a477-185d" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2803,6 +2833,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5e27-9814-2c9d-dd56" name="2x Energy Swords" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2818,6 +2851,9 @@
       <infoLinks>
         <infoLink id="ba08-decb-645c-495e" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be36-9ccf-54f2-9c1d" name="2x Energy Claws" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2833,6 +2869,9 @@
       <infoLinks>
         <infoLink id="d659-6995-0249-65aa" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de9f-4fcc-fcc7-bc9a" name="2x Fusion Pistols" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2848,6 +2887,9 @@
       <infoLinks>
         <infoLink id="e589-65fc-562a-04be" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e834-c6a7-1ec4-0340" name="2x Shock Whips" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2863,6 +2905,9 @@
       <infoLinks>
         <infoLink id="6383-90a3-c44e-2b96" name="Rending" hidden="false" targetId="7375-4ce4-7768-0acf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="014a-645c-0e9e-ebbf" name="2x Plasma Whips" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2875,6 +2920,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="85f1-7973-99b0-b91b" name="2x Force Whips" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2890,6 +2938,9 @@
       <infoLinks>
         <infoLink id="bb34-3a75-7d9a-3508" name="Deadly(X)" hidden="false" targetId="7cc5-4f66-8ace-337c" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c264-e47e-99e0-98f8" name="Flamethrower Sniper Rifle" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2905,6 +2956,9 @@
       <infoLinks>
         <infoLink id="43f5-0b51-1c23-2c2d" name="Sniper" hidden="false" targetId="e6f5-22cf-0866-8cef" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="383a-88a9-ff74-c39d" name="2x Flamethrower Pistols" publicationId="6298-159c-a477-185d" page="2" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2917,6 +2971,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="1549-06c1-4685-757e" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -2932,12 +2989,6 @@
     </rule>
     <rule id="6459-f79d-2946-c7cf" name="Celestial Infantry" publicationId="6298-159c-a477-185d" page="2" hidden="false">
       <description>This model gets +1 to its attack rolls for melee and shooting.</description>
-    </rule>
-    <rule id="842d-621b-ee16-9038" name="Medical Training" publicationId="6298-159c-a477-185d" page="2" hidden="false">
-      <description>This model and all friendly units within 12&quot; get the Regeneration rule.</description>
-    </rule>
-    <rule id="cb6b-5962-1001-0048" name="Shield Wall" publicationId="6298-159c-a477-185d" page="2" hidden="false">
-      <description>Enemies get -1 to hit when they attack units where all models have this rule.</description>
     </rule>
     <rule id="f507-f5d9-352d-14b6" name="War Hymns" publicationId="6298-159c-a477-185d" page="2" hidden="false">
       <description>The hero and all friendly units within 12&quot; get AP(+1) and +1 attack in melee.</description>

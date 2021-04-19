@@ -1754,6 +1754,11 @@
             <cost name="pts" typeId="1549-06c1-4685-757e" value="5.0"/>
           </costs>
         </entryLink>
+        <entryLink id="4e15-82d2-c494-9aca" name="Medical Training" hidden="false" collective="false" import="true" targetId="d931-ab6e-ff18-dcab" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="1549-06c1-4685-757e" value="45.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="1549-06c1-4685-757e" value="50.0"/>
