@@ -317,6 +317,7 @@
         <infoLink id="59d9-c01d-b155-7d12" name="Hero" hidden="false" targetId="7bad-6b36-671a-646b" type="rule"/>
         <infoLink id="54ee-4d9f-bcc1-0303" name="Slow" hidden="false" targetId="cf58-b5d8-d956-0c6e" type="rule"/>
         <infoLink id="d618-5df1-30a4-af9f" name="Tough(X)" hidden="false" targetId="292a-f3ac-32a6-9a43" type="rule"/>
+        <infoLink id="cf28-3912-bd1e-3925" name="Psychic Spells" hidden="false" targetId="b898-f82e-c023-86b9" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0aed-cb98-5bc1-6a4f" name="New CategoryLink" hidden="false" targetId="731f-ae78-a24f-043d" primary="true"/>
@@ -2228,4 +2229,40 @@
       <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
     </rule>
   </sharedRules>
+  <sharedInfoGroups>
+    <infoGroup id="b898-f82e-c023-86b9" name="Psychic Spells" hidden="false">
+      <profiles>
+        <profile id="d70b-ade9-6422-7fda" name="(4+) Spite Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target enemy unit within 12” gets -1 to hit in melee next time it fights.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a01b-e601-ee56-bbed" name="(4+) Smiting Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target enemy unit within 12” takes 4 automatic hits.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0acb-9b9b-0926-3da0" name="(5+) Battle Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target friendly unit within 12” gets +6” next time it moves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ed3b-da64-f5f3-f985" name="(5+) Breaking Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target enemy model within 12” takes 2 automatic hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9478-0af8-b36f-923e" name="(6+) Drill Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target piece of terrain within 6” may be moved by up to 6” in any direction or may be removed from play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a080-32f4-9dbc-f140" name="(6+) Cleaving Rune" hidden="false" typeId="0680-6f78-f88c-15fe" typeName="Psychic Spell">
+          <characteristics>
+            <characteristic name="Psychic Spell" typeId="34ee-63f1-d514-1028">Target 2 enemy units within 12” take 6 automatic hits each.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+  </sharedInfoGroups>
 </catalogue>
