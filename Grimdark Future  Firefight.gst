@@ -175,5 +175,8 @@ Example: A model with Tough(3) only rolls to check wound effects once it has tak
     <rule id="b22c-feba-e423-977b" name="Medical Training" hidden="false">
       <description>This model and all friendly units within 12” get the Regeneration rule.</description>
     </rule>
+    <rule id="8c42-fc47-ed78-6ebc" name="Swift" hidden="false">
+      <description>The hero may ignore the Slow rule.</description>
+    </rule>
   </sharedRules>
 </gameSystem>
